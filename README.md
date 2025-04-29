@@ -2,7 +2,7 @@
 from telegram import Update, ParseMode
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = 8179760158:AAHeM7RLjk17aq7ZiH4QeCslZRk80uZtwqQ
+BOT_TOKEN = "8179760158:AAHeM7RLjk17aq7ZiH4QeCslZRk80uZtwqQ"
 
 async def tag_all(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if '@all' in update.message.text.lower():
